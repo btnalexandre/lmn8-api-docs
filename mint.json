@@ -28,7 +28,8 @@
   "tabs": [
     {
       "name": "API Reference",
-      "url": "api-reference"
+      "url": "api-reference",
+      "openapi": "https://lmn8-partner-platform-staging.up.railway.app/api/swagger"
     }
   ],
   "anchors": [
@@ -38,8 +39,8 @@
       "url": "https://mintlify.com/docs"
     },
     {
-      "name": "Community",
-      "icon": "slack",
+      "name": "Support",
+      "icon": "discord",
       "url": "https://mintlify.com/community"
     },
     {
