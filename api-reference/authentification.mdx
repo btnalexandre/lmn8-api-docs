@@ -1,0 +1,14 @@
+---
+description: "How to authenticate on our API"
+title: "Authentification"
+---
+
+<Warning>
+  **Never make API calls on the client browser.** This would expose your API key to all your customers.
+</Warning>
+
+All API endpoints are authenticated using ` X-API-KEY` token and need to be in the **Header** of the request.
+
+```bash
+X-API-KEY: ••••••••••••••••••••••••
+```
